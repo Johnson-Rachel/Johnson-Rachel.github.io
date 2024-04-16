@@ -4,140 +4,146 @@ import Card from '../components/Card.astro';
 import { Image } from 'astro:assets';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Rachel Johnson">
 	<main>
 		</svg>
 		<h1 <span class="text-gradient">Rachel Johnson</span></h1>
 		<p class="info">
-			Some of my projects and adventures are below. I have a background in physics, dance, and hiking but I'm always learning new things too!
+			Some of my projects and adventures are below. I have a background in physics, dance, and hiking and I'm always learning new things too!
+		</p>
+		<p class="info">
+			<a href='mailto:rjohnsn01@gmail.com'>Email</a> &#x25CB; 
+			<a href='/src/'>Resume</a> &#x25CB; 
+			<a href='https://www.linkedin.com/in/rjohns27/'>LinkedIn</a> &#x25CB; 
+			<a href='https://github.com/johnson-rachel/'>GitHub</a>
 		</p>
 		<ul role="list" class="link-card-grid">
 			<Card
-				href="posts/post1"
+				href="posts/senior-thesis"
 				title="Senior Thesis"
 				body=""
-				image="/src/assets/senior-thesis.jpg"
+				image="/src/assets/ibm-qc.webp"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/richard-iii"
 				title="Richard III"
 				body=""
 				image="/src/assets/riii-credit-sofia-crimivaroli.jpg"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/idg-2024"
 				title="Irish Dancesport Gala 2024"
 				body=""
 				image="/src/assets/idg-2024.jpg"
 			/>
 			<Card
-				href="posts/post1"
-				title="Ozark Highlads Trail"
+				href="posts/oht"
+				title="Ozark Highlands Trail"
 				body=""
 				image="/src/assets/oht.jpg"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/rodeo-and-juliet"
 				title="Rodeo and Juliet"
 				body=""
 				image="/src/assets/r-and-j.jpg"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/baobab-species-portfolio"
 				title="Baobab Species Portfolio"
 				body=""
 				image="/src/assets/baobab.png"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/stellenbosch"
 				title="Study Abroad in Stellenbosch, South Africa"
 				body=""
 				image="/src/assets/bungee.jpg"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/mt-whitney"
 				title="Hiking Mt. Whitney"
 				body=""
 				image="/src/assets/whitney.jpg"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/neutron-activation"
 				title="Neutron Activation Analysis at Goethe University, Frankfurt, Germany"
 				body=""
 				image="/src/assets/germany.jpg"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/radio"
 				title="Elenco Radio Kit"
 				body=""
 				image="/src/assets/radio.png"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/syc4m0r3"
 				title="Syc4m0r3"
 				body=""
 				image="/src/assets/tulips.jpg"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/campfire"
 				title="Campfire"
 				body=""
 				image="/src/assets/campfire.png"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/qft"
 				title="Evaluating the Accuracy of Quantum Computers through a Quantum Fourier Transform Algorithm"
 				body=""
 				image="/src/assets/qft.jpg"
 			/><Card
-				href="posts/post1"
+				href="posts/soil-monitor"
 				title="Soil Monitor"
 				body=""
 				image="/src/assets/soil-monitor.jpg"
 			/><Card
-				href="posts/post1"
+				href="posts/iquhack"
 				title="Calculating e Using Monte Carlo Methods and Quantum Amplitude Estimation"
 				body=""
 				image="/src/assets/iquhack.png"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/noether"
 				title="Amalie Emmy Noether and Noether's Theorem"
 				body=""
 				image="/src/assets/noether.jpg"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/plancks-constant"
 				title="Calculating Planck's Constant Using LEDs"
 				body=""
 				image="/src/assets/leds.jpg"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/biomial-expansion"
 				title="Biomial Expansion"
 				body=""
 				image="/src/assets/biomial.png"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/drip-drop"
 				title="Drip Drop"
 				body=""
 				image="/src/assets/drip-drop.png"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/m3-2020"
 				title="MathWorks Math Modeling Challenge 2020"
 				body=""
 				image="/src/assets/m3.jpg"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/mentor-one"
 				title="Mentor One"
 				body=""
 				image="/src/assets/mentorone.png"
 			/>
 			<Card
-				href="posts/post1"
+				href="posts/m3-2019"
 				title="MathWorks Math Modeling Challenge 2019"
 				body=""
 				image="/src/assets/m3.jpg"
@@ -156,6 +162,15 @@ import { Image } from 'astro:assets';
 		font-size: 20px;
 		line-height: 1.6;
 	}
+	a {
+	color: var(--accent);
+	text-decoration: none;
+	}
+	a:focus,
+	a:hover {
+	color: var(--accent-yellow);
+	text-decoration: none;
+	}
 	.astro-a {
 		position: absolute;
 		top: -32px;
@@ -173,6 +188,7 @@ import { Image } from 'astro:assets';
 		margin-bottom: 1em;
 	}
 	.text-gradient {
+		font-family: Lucida Console;
 		background-image: var(--accent-gradient);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -180,6 +196,7 @@ import { Image } from 'astro:assets';
 		background-position: 0%;
 	}
 	.info {
+		font-family: monospace, sans-serif;
 		margin-bottom: 2rem;
 		border: 3px solid rgba(var(--accent-yellow), 66%);
 		background: solid rgba(var(--accent-dark), 66%);

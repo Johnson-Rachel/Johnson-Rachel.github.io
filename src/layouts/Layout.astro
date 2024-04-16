@@ -19,11 +19,18 @@ const { title } = Astro.props;
 	<body>
 		<slot />
 	</body>
+	<!-- Footer content -->
+    <footer>
+		<hr>
+        <p>
+			<a href='/src/pages/index.astro'>Home</a>
+		</p>
+    </footer>
 </html>
 <style is:global>
 	:root {
 		--accent-yellow: 255, 202, 14;
-		--accent: 58, 150, 234;
+		--accent: 10, 190, 204;
 		--accent-light: 204, 246, 250;
 		--accent-dark: 10, 54, 101;
 		--accent-gradient: linear-gradient(
@@ -34,8 +41,8 @@ const { title } = Astro.props;
 		);
 	}
 	html {
-		font-family: system-ui, sans-serif;
-		background: #13151a;
+		font-family: system-ui;
+		background: #131511;
 		background-size: 224px;
 		color: white;
 	}
@@ -49,5 +56,11 @@ const { title } = Astro.props;
 			Bitstream Vera Sans Mono,
 			Courier New,
 			monospace;
+	}
+	body {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+	font-size: 22px;
 	}
 </style>
