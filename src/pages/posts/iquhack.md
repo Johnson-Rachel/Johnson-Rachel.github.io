@@ -4,7 +4,7 @@ title: 'Calculating e Using Monte Carlo Methods and Quantum Amplitude Estimation
 ---
 # Calculating e Using Monte Carlo Methods and Quantum Amplitude Estimation
 
-For iQuHack 2021, I teamed up with a couple high school friends to learn about quantum computing. Our project is on [GitHub](https://github.com/iQuHACK/2021_Airier-Lei)
+For iQuHack 2021, I teamed up with a couple high school friends to learn about quantum computing. Our project is on [GitHub](https://github.com/iQuHACK/2021_Airier-Lei).
 
 ## Abstract
 

@@ -4,6 +4,6 @@ title: 'Drip Drop'
 ---
 # Drip Drop
 
-I 
+I built a website using HTML, CSS, and Bootstrap to educate users on water conservation through projects and quizzes. We also prototyped an irrigation system using an Arduino to optimize for humidity and mitigate water loss. My team won 2nd Place at the Wacode Hackathon at Baylor University. 
 
-<img src="/src/assets/" alt="" width="80%"/>
+The project can be found on [GitHub](https://github.com/jordanadrianoo/WaCode-Hackathon-Drip-Drop).

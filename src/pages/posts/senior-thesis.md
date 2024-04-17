@@ -4,7 +4,9 @@ title: 'Senior Thesis'
 ---
 # Senior thesis: Using Frame Randomization to Mitigate Errors in Quantum Optimization
 
-As a senior in the Glynn Family Honors Program at Notre Dame, I was required to write a senior thesis. I worked with Dr. Anthony Hoffman at Notre Dame, Dr. Steve Adachi at Lockheed Martin, and Dr. Joshua Job at Lockheed Martin. My abstract is below. Feel free to reach out if you're interested in seeing the full paper!
+As a senior in the Glynn Family Honors Program at Notre Dame, I was required to write a senior thesis. I worked with Dr. Anthony Hoffman at Notre Dame, Dr. Steve Adachi at Lockheed Martin, and Dr. Joshua Job at Lockheed Martin. 
+
+My abstract is below. Feel free to reach out if you're interested in seeing the full paper!
 
 ## Abstract
 

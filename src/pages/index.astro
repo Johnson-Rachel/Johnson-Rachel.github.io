@@ -1,7 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
-import { Image } from 'astro:assets';
 ---
 
 <Layout title="Rachel Johnson">
@@ -13,7 +12,7 @@ import { Image } from 'astro:assets';
 		</p>
 		<p class="info">
 			<a href='mailto:rjohnsn01@gmail.com'>Email</a> &#x25CB; 
-			<a href='/src/'>Resume</a> &#x25CB; 
+			<a href='/src/Resume.pdf'>Resume</a> &#x25CB; 
 			<a href='https://www.linkedin.com/in/rjohns27/'>LinkedIn</a> &#x25CB; 
 			<a href='https://github.com/johnson-rachel/'>GitHub</a>
 		</p>
@@ -52,25 +51,25 @@ import { Image } from 'astro:assets';
 				href="posts/baobab-species-portfolio"
 				title="Baobab Species Portfolio"
 				body=""
-				image="/src/assets/baobab.png"
+				image="/src/assets/baobab-photo.jpg"
 			/>
 			<Card
 				href="posts/stellenbosch"
 				title="Study Abroad in Stellenbosch, South Africa"
 				body=""
-				image="/src/assets/bungee.jpg"
-			/>
-			<Card
-				href="posts/mt-whitney"
-				title="Hiking Mt. Whitney"
-				body=""
-				image="/src/assets/whitney.jpg"
+				image="/src/assets/jonkershoek.jpg"
 			/>
 			<Card
 				href="posts/neutron-activation"
 				title="Neutron Activation Analysis at Goethe University, Frankfurt, Germany"
 				body=""
 				image="/src/assets/germany.jpg"
+			/>
+			<Card
+				href="posts/mt-whitney"
+				title="Hiking Mt. Whitney"
+				body=""
+				image="/src/assets/whitney.jpg"
 			/>
 			<Card
 				href="posts/radio"
@@ -105,6 +104,12 @@ import { Image } from 'astro:assets';
 				title="Calculating e Using Monte Carlo Methods and Quantum Amplitude Estimation"
 				body=""
 				image="/src/assets/iquhack.png"
+			/>
+			<Card
+				href="posts/old-website"
+				title="Old Website"
+				body=""
+				image="/src/assets/old-website.png"
 			/>
 			<Card
 				href="posts/noether"

@@ -23,14 +23,17 @@ const { title } = Astro.props;
     <footer>
 		<hr>
         <p>
-			<a href='/src/pages/index.astro'>Home</a>
+			<a href='/'>Home</a>
+		</p>
+		<p>
+			Except where otherwise noted, the content of this website is licensed under a <a href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International License</a>.
 		</p>
     </footer>
 </html>
 <style is:global>
 	:root {
 		--accent-yellow: 255, 202, 14;
-		--accent: 10, 190, 204;
+		--accent: 10, 160, 172;
 		--accent-light: 204, 246, 250;
 		--accent-dark: 10, 54, 101;
 		--accent-gradient: linear-gradient(
@@ -42,7 +45,7 @@ const { title } = Astro.props;
 	}
 	html {
 		font-family: system-ui;
-		background: #131511;
+		background: #121311;
 		background-size: 224px;
 		color: white;
 	}
@@ -62,5 +65,8 @@ const { title } = Astro.props;
     margin: 0 auto; 
     padding: 0 20px; 
 	font-size: 22px;
+	}
+	a {
+		color: var(--accent);
 	}
 </style>

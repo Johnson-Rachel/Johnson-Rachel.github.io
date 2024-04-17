@@ -1,6 +1,6 @@
 ---
 layout: '../../layouts/Layout.astro'
-title: 'Calculating Planck's Constant using LEDs'
+title: "Calculating Plancks Constant using LEDs"
 ---
 # Calculating Planck's Constant using LEDs
 
