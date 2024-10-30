@@ -12,4 +12,4 @@ On the day of our hike, we woke up at 1 am, started hiking around 2 am, and didn
 
 Thankfully, everything went well and we successfully made the summit!
 
-<img src="/src/assets/whitney-with-liam.jpg" alt="Liam and I at the peak" width="80%"/>
+<img src="/whitney-with-liam.webp" alt="Liam and I at the peak" width="80%"/>

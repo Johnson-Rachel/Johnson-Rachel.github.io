@@ -9,4 +9,4 @@ I took a class in Stellenbosch about the Biome Ecology of South Africa. For the 
 
 It was fun to learn about these unique trees and create some drawings!
 
-<img src="/src/assets/baobab.webp" alt="Drawing of baobab tree and leaf" width="80%"/>
+<img src="/baobab.webp" alt="Drawing of baobab tree and leaf" width="80%"/>

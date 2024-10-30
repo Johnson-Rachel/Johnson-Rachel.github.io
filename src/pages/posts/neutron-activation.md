@@ -10,4 +10,4 @@ This was my first time outside of the country and I had a blast exploring Frankf
 
 My group used neutron activation analysis techniques to analyze the chemical composition of an American quarter, Zirconium earrings, and a ring of unknown material that we determined was largely nickel. We also toured the GSI nuclear facility.
 
-<img src="/src/assets/germany.jpg" alt="Particle Accelerator equipment" width="80%"/>
+<img src="/germany.webp" alt="Particle Accelerator equipment" width="80%"/>

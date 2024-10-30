@@ -8,5 +8,5 @@ James and I hiked the Appalachian trail SOBO (Southbound) from Khatadin, ME to R
 
 We created a photo blog for the adventure at [picturesofaforest.com](https://picturesofaforest.com)
 
-<img src="/src/assets/at-hang-tags.jpg" alt="Photo of out AT hangtags on our packs in Monson, ME" width="80%"/>
+<img src="/at-hang-tags.webp" alt="Photo of out AT hangtags on our packs in Monson, ME" width="80%"/>
 
