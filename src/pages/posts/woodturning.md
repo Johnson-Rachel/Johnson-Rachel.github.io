@@ -12,7 +12,7 @@ After that, I joined a [local makerspace](https://makerspace.com/map/) and made 
 
 <img src="/turning1.webp" alt="Me turning my bagel plate at the makerspace" width="80%"/>
 
-Here, I'm turning a piece at the makerspace.
+Here I'm turning a piece at the makerspace.
 
 <img src="/turning5.webp" alt="Partially finished dish made from pecan fogwood with interesting rot" width="80%"/>
 
