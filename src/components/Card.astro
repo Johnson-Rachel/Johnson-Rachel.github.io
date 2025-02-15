@@ -31,6 +31,7 @@ const { href, title, body, image } = Astro.props;
     text-align: center;
     opacity: 1;
     transition: background-color .5s;
+    place-items: center;
 }
 
 .link-card:hover::after, 
@@ -66,5 +67,24 @@ p {
     margin-top: 0.5rem;
     margin-bottom: 0;
 }
-
+@media (670px <= width <= 800px) {
+  	/* scale down circles without overlapping */
+	h2 {
+		font-size: 1.6rem;
+	}
+    .link-card {
+        height: 28ch;
+        width: 28ch;
+    }
+}
+@media (632px <= width <= 669px) {
+  	/* scale down circles without overlapping */
+	h2 {
+		font-size: 1.5rem;
+	}
+    .link-card {
+        height: 26ch;
+        width: 26ch;
+    }
+}
 </style>
