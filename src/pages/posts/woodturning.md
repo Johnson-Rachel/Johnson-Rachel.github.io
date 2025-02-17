@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
 title: 'Wood Turning'
+pubDate: 'Wed, 12 Feb 2025 08:00:00 EST'
 ---
 # Wood Turning
 

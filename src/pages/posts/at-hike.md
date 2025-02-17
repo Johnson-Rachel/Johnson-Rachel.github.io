@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
 title: 'Appalachian Trail'
+pubDate: 'Fri, 1 Nov 2024 08:00:00 EST'
 ---
 # Appalachian Trail
 

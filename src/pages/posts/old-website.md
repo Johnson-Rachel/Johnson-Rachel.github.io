@@ -1,6 +1,6 @@
 ---
 layout: '../../layouts/Layout.astro'
-title: 'Olf Website'
+title: 'Old Website'
 ---
 # Old Website
 
