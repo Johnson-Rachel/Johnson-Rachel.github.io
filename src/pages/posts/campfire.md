@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
 title: 'Campfire'
+pubDate: 'Sat, 1 May 2021 08:00:00 EST'
 ---
 # Campfire
 

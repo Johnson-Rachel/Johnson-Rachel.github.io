@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
 title: 'Baobab Species Portfolio'
+pubDate: 'Thu, 1 Jun 2023 08:00:00 EST'
 ---
 
 # Baobab Species Portfolio

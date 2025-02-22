@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
 title: 'Ozark Highlands Trail'
+pubDate: 'Mon, 1 Feb 2024 08:00:00 EST'
 ---
 # Ozark Highlands Trail
 

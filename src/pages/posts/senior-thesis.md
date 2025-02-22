@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
-title: 'Senior Thesis'
+title: 'Senior Thesis
+pubDate: 'Sat, 1 Jun 2024 08:00:00 EST'
 ---
 # Senior thesis: Using Frame Randomization to Mitigate Errors in Quantum Optimization
 

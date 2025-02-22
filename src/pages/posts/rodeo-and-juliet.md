@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
 title: 'Rodeo and Juliet'
+pubDate: 'Mon, 1 Jan 2024 08:00:00 EST'
 ---
 # Rodeo and Juliet
 

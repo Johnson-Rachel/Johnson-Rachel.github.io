@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
 title: 'Soil Monitor'
+pubDate: 'Thu, 1 Apr 2021 08:00:00 EST'
 ---
 # Soil Monitor
 

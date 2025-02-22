@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
 title: 'Richard III'
+pubDate: 'Wed, 1 May 2024 08:00:00 EST'
 ---
 # Richard III
 

@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
 title: "Calculating Plancks Constant using LEDs"
+pubDate: 'Tue, 1 Dec 2020 08:00:00 EST'
 ---
 # Calculating Planck's Constant using LEDs
 

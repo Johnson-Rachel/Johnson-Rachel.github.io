@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
 title: 'Neutron Activation Analysis in Germany'
+pubDate: 'Tue, 1 Nov 2022 08:00:00 EST'
 ---
 # Neutron Activation Analysis in Germany
 

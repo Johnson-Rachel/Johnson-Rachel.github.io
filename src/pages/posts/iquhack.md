@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
 title: 'Calculating e Using Monte Carlo Methods and Quantum Amplitude Estimation'
+pubDate: 'Mon, 1 Feb 2021 08:00:00 EST'
 ---
 # Calculating e Using Monte Carlo Methods and Quantum Amplitude Estimation
 

@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
 title: 'Stellenbosch'
+pubDate: 'Sat, 1 Jul 2023 08:00:00 EST'
 ---
 # Study Abroad in Stellenbosch
 

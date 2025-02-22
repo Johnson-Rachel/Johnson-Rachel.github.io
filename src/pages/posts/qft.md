@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
 title: 'QFT'
+pubDate: 'Tue, 1 Jun 2021 08:00:00 EST'
 ---
 # Evaluating the Accuracy of Quantum Computers through a Quantum Fourier Transform Algorithm
 

@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
 title: 'Hiking Mt. Whitney'
+pubDate: 'Thu, 1 Sep 2022 08:00:00 EST'
 ---
 # Hiking Mt. Whitney
 

@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
 title: 'Syc4m0r3'
+pubDate: 'Fri, 1 Oct 2021 08:00:00 EST'
 ---
 # Syc4m0r3
 

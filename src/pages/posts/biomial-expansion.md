@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
 title: 'Biomial Expansion'
+pubDate: 'Fri, 1 May 2020 08:00:00 EST'
 ---
 # Biomial Expansion
 
