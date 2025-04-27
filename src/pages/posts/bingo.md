@@ -45,7 +45,7 @@ pubDate: 'Sat, 1 Mar 2025 08:00:00 EST'
         <td>Burn food (inedible or smoke alarm)</td>
       </tr>
       <tr>
-        <td>Win at Bananagrams</td>
+        <td class="cross">Win at Bananagrams</td>
         <td>Completely break something I make</td>
         <td>Buy an album</td>
         <td>Walk 60k+ steps in a day</td>
@@ -66,7 +66,7 @@ pubDate: 'Sat, 1 Mar 2025 08:00:00 EST'
         <td>Attend pride</td>
       </tr>
       <tr>
-        <td>Attend a protest</td>
+        <td class="cross">Attend a protest</td>
         <td>Use a sewing machine</td>
         <td>Eat a morel</td>
         <td>Lose a sock (or underwear)</td>
