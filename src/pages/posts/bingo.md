@@ -38,7 +38,7 @@ pubDate: 'Sat, 1 Mar 2025 08:00:00 EST'
   <table>
     <tbody>
       <tr>
-        <td>Bike all 5 boros</td>
+        <td class="cross">Bike all 5 boros</td>
         <td>Get on the wrong subway</td>
         <td>Push a breaking change to main</td>
         <td>Climb a tree</td>
