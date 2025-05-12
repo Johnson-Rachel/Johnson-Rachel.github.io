@@ -26,3 +26,8 @@ James came up with the silly idea of making a bagel plate that has a hole in the
 <img src="/turning2.webp" alt="Plate and bowls that I've made" width="80%"/>
 
 This is all the pieces I've made at the time of writing this post. In the back from left to right is the mahogony, pecan, and cherry and in front is the bagel plate.
+
+Update: I've also made these two bowls, both from scraps at the makerspace.
+
+<img src="/turning6.webp" alt="Two more bowls holding a wallet and keys" width="80%"/>
+
