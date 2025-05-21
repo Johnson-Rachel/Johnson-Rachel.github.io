@@ -56,7 +56,7 @@ pubDate: 'Sat, 1 Mar 2025 08:00:00 EST'
         <td>Slip and fall on ice</td>
         <td class="cross">Central Park&nbsp; (free)</td>
         <td>Forage 5+ different plants</td>
-        <td>Learn to identify a new plant</td>
+        <td class="cross">Learn to identify a new plant</td>
       </tr>
       <tr>
         <td class="cross">Buy a book</td>
