@@ -49,7 +49,7 @@ pubDate: 'Sat, 1 Mar 2025 08:00:00 EST'
         <td>Completely break something I make</td>
         <td>Buy an album</td>
         <td>Walk 60k+ steps in a day</td>
-        <td>Go to a concert</td>
+        <td class="cross">Go to a concert</td>
       </tr>
       <tr>
         <td class="cross">Someone uses they/them pronouns for me</td>
@@ -63,14 +63,14 @@ pubDate: 'Sat, 1 Mar 2025 08:00:00 EST'
         <td>Travel outside the US</td>
         <td>Dig a cat hole</td>
         <td>Learn a new dance style</td>
-        <td>Attend pride</td>
+        <td class="cross">Attend pride</td>
       </tr>
       <tr>
         <td class="cross">Attend a protest</td>
         <td>Use a sewing machine</td>
         <td>Eat a morel</td>
         <td>Lose a sock (or underwear)</td>
-        <td>Solder something</td>
+        <td class="cross">Solder something</td>
       </tr>
     </tbody>
   </table>
