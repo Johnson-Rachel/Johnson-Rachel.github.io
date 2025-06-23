@@ -68,7 +68,7 @@ pubDate: 'Sat, 1 Mar 2025 08:00:00 EST'
       <tr>
         <td class="cross">Attend a protest</td>
         <td>Use a sewing machine</td>
-        <td>Eat a morel</td>
+        <td class="cross">Eat a morel</td>
         <td>Lose a sock (or underwear)</td>
         <td class="cross">Solder something</td>
       </tr>
