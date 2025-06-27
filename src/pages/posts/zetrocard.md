@@ -5,7 +5,7 @@ pubDate: 'Fri, 27 Jun 2025 08:00:00 EST'
 ---
 # ZetroCard
 
-Like many New Yorkers, I went canvassing for one or our mayoral candidates for the 2025 mayoral primary. I'd never been canvassing before but the Zohran team taught me everything I needed to know and also gave me some well designed merch including a ZetroCard to encourage me to come back and canvass several times. Over the weeks leading up to the election, I managed to complete my ZetroCard by canvassing in a wide variety of neighborhoods. It was honestly a great way to explore different neighborhoods of the city. Here are the neighborhoods where I canvassed:
+Like many New Yorkers, I went canvassing for one or our mayoral candidates for the 2025 mayoral primary. I'd never been canvassing before, but the Zohran team taught me everything I needed to know and also gave me some well designed merch including a ZetroCard to encourage me to come back and canvass several times. Over the weeks leading up to the election, I managed to complete my ZetroCard by canvassing in a wide variety of neighborhoods. It was honestly a great way to explore different neighborhoods of the city. Here are the neighborhoods where I canvassed:
 
 1. Upper West Side
 
