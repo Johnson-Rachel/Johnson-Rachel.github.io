@@ -10,9 +10,9 @@ Peak bagging for me is a fun number to track as I enjoy the outdoors and the dif
 ## Colorado 14ers
 
 - Mount Bierstadt (03 July, 2021)
-- Mount Princeton ()
+- Mount Princeton (July, 2021)
 - Mount Elbert (10 July, 2021)
-- Mount Yale ()
+- Mount Yale (August, 2021)
 - Mount Democrat (13 August, 2025)
 - Mount Cameron (13 August, 2025)
 - Mount Lincoln (13 August, 2025)
