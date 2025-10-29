@@ -16,3 +16,5 @@ I bought some hairpin table legs online and an electric sander and drill off fac
 I cleaned all the sawdust out of our apartment bathroom and finally, it was time to apply the finish (luckily I still had plenty of finish left over from my lathe projects). I'm pretty happy with the final result:
 
 <img src="/finished-table.webp" alt="My finished table in our apartment" width="80%"/>
+
+Note: I originally planned to sand/peel off the outer bark but James liked the look of it, so I decided to leave it on.
