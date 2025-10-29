@@ -60,7 +60,7 @@ pubDate: 'Sat, 1 Mar 2025 08:00:00 EST'
       </tr>
       <tr>
         <td class="cross">Buy a book</td>
-        <td>Travel outside the US</td>
+        <td class="cross">Travel outside the US</td>
         <td>Dig a cat hole</td>
         <td>Learn a new dance style</td>
         <td class="cross">Attend pride</td>
@@ -69,7 +69,7 @@ pubDate: 'Sat, 1 Mar 2025 08:00:00 EST'
         <td class="cross">Attend a protest</td>
         <td>Use a sewing machine</td>
         <td class="cross">Eat a morel</td>
-        <td>Lose a sock (or underwear)</td>
+        <td class="cross">Lose a sock (or underwear)</td>
         <td class="cross">Solder something</td>
       </tr>
     </tbody>
