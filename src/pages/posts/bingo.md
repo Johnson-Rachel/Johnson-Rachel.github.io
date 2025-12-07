@@ -48,7 +48,7 @@ pubDate: 'Sat, 1 Mar 2025 08:00:00 EST'
         <td class="cross">Win at Bananagrams</td>
         <td>Completely break something I make</td>
         <td>Buy an album</td>
-        <td>Walk 60k+ steps in a day</td>
+        <td class="cross">Walk 60k+ steps in a day</td>
         <td class="cross">Go to a concert</td>
       </tr>
       <tr>
