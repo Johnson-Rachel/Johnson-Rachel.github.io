@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/Layout.astro'
 title: 'Trees Count 2025'
-pubDate: 'Fri, 27 Jun 2025 08:00:00 EST'
+pubDate: 'Wed, 31 Dec 2025 08:00:00 EST'
 ---
 
 # Trees Count 2025

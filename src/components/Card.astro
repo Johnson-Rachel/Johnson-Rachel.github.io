@@ -20,8 +20,8 @@ const { href, title, body, image } = Astro.props;
 <style>
 	.link-card {
     position: relative; 
-    height: 33ch;
-    width: 33ch;
+    height: 23rem;
+    width: 23rem;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -48,8 +48,8 @@ const { href, title, body, image } = Astro.props;
 
 .link-card > a {
 	z-index: 1;
-    height: 24ch;
-    width: 24ch;
+    height: 20rem;
+    width: 20rem;
     text-decoration: none;
     line-height: 1.4;
     padding: calc(3.5rem - 5px);
@@ -67,34 +67,35 @@ p {
     margin-top: 0.5rem;
     margin-bottom: 0;
 }
-@media (670px <= width <= 800px) {
+@media (750px <= width <= 800px) {
+  	/* scale down circles without overlapping */
+	h2 {
+		font-size: 1.7rem;
+	}
+    .link-card {
+        height: 20rem;
+        width: 20rem;
+    }
+}
+@media (500px <= width <= 749px) {
+  	/* scale down circles without overlapping */
+	h2 {
+		font-size: 1.8rem;
+	}
+    .link-card {
+        height: 26rem;
+        width: 26rem;
+    }
+}
+@media (width <= 499px) {
   	/* scale down circles without overlapping */
 	h2 {
 		font-size: 1.6rem;
 	}
     .link-card {
-        height: 28ch;
-        width: 28ch;
+        height: 23rem;
+        width: 23rem;
     }
 }
-@media (632px <= width <= 669px) {
-  	/* scale down circles without overlapping */
-	h2 {
-		font-size: 1.5rem;
-	}
-    .link-card {
-        height: 26ch;
-        width: 26ch;
-    }
-}
-@media ( width <= 369px) {
-  	/* scale down circles for really small screens */
-	h2 {
-		font-size: 1.8rem;
-	}
-    .link-card {
-        height: 30ch;
-        width: 30ch;
-    }
 }
 </style>
