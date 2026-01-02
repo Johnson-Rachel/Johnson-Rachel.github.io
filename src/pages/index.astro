@@ -1,6 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import posts from '../posts.json'
+import { map } from 'astro:schema';
 
 ---
 
@@ -12,193 +14,18 @@ import Card from '../components/Card.astro';
 			<a href='mailto:rachel@rachelejohnson.com'>Email</a> &#x25CB; 
 			<a href='/Resume.pdf'>Resume</a> &#x25CB; 
 			<a href='https://github.com/johnson-rachel/'>GitHub</a> &#x25CB; 
-			<a href='/feed.xml'>RSS</a>
+			<a href='/archive'>All Posts</a> &#x25CB;
+			<a href='/feed.xml'>RSS</a> 
+			
 		</p>
 		<ul role="list" class="link-card-grid">
-			<Card
-				href="posts/trees-count"
-				title="Trees Count 2025"
-				body=""
-				image="/treescount-tree.webp"
-			/>
-			<Card
-				href="posts/peak-bagging"
-				title="Peak Bagging"
-				body=""
-				image="/washington.webp"
-			/>
-			<Card
-				href="posts/zetrocard"
-				title="ZetroCard"
-				body=""
-				image="/zetro-front.webp"
-			/>
-			<Card
-				href="posts/sycamore-table"
-				title="Live Edge Table"
-				body=""
-				image="/finished-table-dark.webp"
-			/>
-			<Card
-				href="posts/aps-2025"
-				title="Global Physics Summit 2025"
-				body=""
-				image="/anaheim-conference-center.webp"
-			/>
-			<Card
-				href="posts/woodturning"
-				title="Wood Turning"
-				body=""
-				image="/turning3.webp"
-			/>
-			<Card
-				href="posts/at-hike"
-				title="Appalachian Trail"
-				body=""
-				image="/at-hike.webp"
-			/>
-			<Card
-				href="posts/senior-thesis"
-				title="Senior Thesis"
-				body=""
-				image="/ibm-qc.webp"
-			/>
-			<Card
-				href="posts/richard-iii"
-				title="Richard III"
-				body=""
-				image="riii-credit-sofia-crimivaroli.webp"
-			/>
-			<Card
-				href="posts/idg-2024"
-				title="Irish Dancesport Gala 2024"
-				body=""
-				image="idg-2024.webp"
-			/>
-			<Card
-				href="posts/aps-2024"
-				title="APS March Meeting 2024"
-				body=""
-				image="/MN-spoon.webp"
-			/>
-			<Card
-				href="posts/oht"
-				title="Ozark Highlands Trail"
-				body=""
-				image="oht.webp"
-			/>
-			<Card
-				href="posts/rodeo-and-juliet"
-				title="Rodeo and Juliet"
-				body=""
-				image="r-and-j.webp"
-			/>
-			<Card
-				href="posts/baobab-species-portfolio"
-				title="Baobab Species Portfolio"
-				body=""
-				image="baobab-photo.webp"
-			/>
-			<Card
-				href="posts/stellenbosch"
-				title="Study Abroad in Stellenbosch, South Africa"
-				body=""
-				image="jonkershoek.webp"
-			/>
-			<Card
-				href="posts/neutron-activation"
-				title="Neutron Activation Analysis in Frankfurt, Germany"
-				body=""
-				image="germany.webp"
-			/>
-			<Card
-				href="posts/mt-whitney"
-				title="Hiking Mt. Whitney"
-				body=""
-				image="whitney.webp"
-			/>
-			<Card
-				href="posts/radio"
-				title="Elenco Radio Kit"
-				body=""
-				image="radio.webp"
-			/>
-			<Card
-				href="posts/syc4m0r3"
-				title="Syc4m0r3"
-				body=""
-				image="tulips.webp"
-			/>
-			<Card
-				href="posts/campfire"
-				title="Campfire"
-				body=""
-				image="campfire.webp"
-			/>
-			<Card
-				href="posts/qft"
-				title="Evaluating Quantum Computers on QFT Accuracy"
-				body=""
-				image="qft.webp"
-			/><Card
-				href="posts/soil-monitor"
-				title="Soil Monitor"
-				body=""
-				image="soil-monitor.webp"
-			/><Card
-				href="posts/iquhack"
-				title="iQuHack 2021"
-				body=""
-				image="iquhack.webp"
-			/>
-			<Card
-				href="posts/old-website"
-				title="Old Website"
-				body=""
-				image="old-website.webp"
-			/>
-			<Card
-				href="posts/noether"
-				title="Amalie Emmy Noether and Noether's Theorem"
-				body=""
-				image="noether.webp"
-			/>
-			<Card
-				href="posts/plancks-constant"
-				title="Calculating Planck's Constant Using LEDs"
-				body=""
-				image="leds.webp"
-			/>
-			<Card
-				href="posts/biomial-expansion"
-				title="Biomial Expansion"
-				body=""
-				image="biomial.webp"
-			/>
-			<Card
-				href="posts/drip-drop"
-				title="Drip Drop"
-				body=""
-				image="drip-drop.webp"
-			/>
-			<Card
-				href="posts/m3-2020"
-				title="MathWorks Math Modeling Challenge 2020"
-				body=""
-				image="m3.webp"
-			/>
-			<Card
-				href="posts/mentor-one"
-				title="Mentor One"
-				body=""
-				image="mentorone.webp"
-			/>
-			<Card
-				href="posts/m3-2019"
-				title="MathWorks Math Modeling Challenge 2019"
-				body=""
-				image="m3.webp"
-			/>
+			{
+			posts.slice(0,20).map(post => <Card
+				href={post.href}
+				title={post.title}
+				image={post.image}
+			/>)
+			}
 		</ul>
 	</main>
 </Layout>
