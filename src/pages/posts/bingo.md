@@ -1,9 +1,9 @@
 ---
 layout: '../../layouts/Layout.astro'
-title: '2025 Bingo'
-pubDate: 'Sat, 1 Mar 2025 08:00:00 EST'
+title: '2026 Bingo'
+pubDate: 'Thu, 8 Jan 2025 08:00:00 EST'
 ---
-# 2025 Bingo
+# 2026 Bingo
 
 <style>
   tr:nth-child(even) > td:nth-child(odd),
@@ -26,7 +26,7 @@ pubDate: 'Sat, 1 Mar 2025 08:00:00 EST'
     display: block;
     width: fit-content;
   }
-  .cross {
+  .x {
     background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M80 20L20 80' stroke='rgb(209 209 209)' stroke-width='1'/><path d='M20 20L80 80' stroke='rgb(209 209 209)' stroke-width='1'/></svg>");
     background-repeat: no-repeat;
     background-position: center center;
@@ -38,39 +38,39 @@ pubDate: 'Sat, 1 Mar 2025 08:00:00 EST'
   <table>
     <tbody>
       <tr>
-        <td class="cross">Bike all 5 boros</td>
-        <td class="cross">Get on the wrong subway</td>
-        <td>Push a breaking change to main</td>
-        <td class="cross">Climb a tree</td>
-        <td>Burn food (inedible or smoke alarm)</td>
+        <td>Replace a piece of furniture</td>
+        <td>See a quantum computer in person</td>
+        <td>Ride Amtrak, Flix, or Greyhound</td>
+        <td>Go to (not through) New Jersey</td>
+        <td>Dig a cathole</td>
       </tr>
       <tr>
-        <td class="cross">Win at Bananagrams</td>
-        <td>Completely break something I make</td>
-        <td>Buy an album</td>
-        <td class="cross">Walk 60k+ steps in a day</td>
-        <td class="cross">Go to a concert</td>
+        <td>3D print something</td>
+        <td>Try a new sport</td>
+        <td>Play and finish a new video game</td>
+        <td>Get sick</td>
+        <td>Have a conversation with a politician</td>
       </tr>
       <tr>
-        <td class="cross">Someone uses they/them pronouns for me</td>
-        <td>Slip and fall on ice</td>
-        <td class="cross">Central Park&nbsp; (free)</td>
-        <td>Forage 5+ different plants</td>
-        <td class="cross">Learn to identify a new plant</td>
+        <td>Bike 50+ miles in a day</td>
+        <td>Accidentally kill a houseplant</td>
+        <td class="x">Central Park&nbsp; (free)</td>
+        <td>Jury duty</td>
+        <td>Build/make something useless</td>
       </tr>
       <tr>
-        <td class="cross">Buy a book</td>
-        <td class="cross">Travel outside the US</td>
-        <td>Dig a cat hole</td>
-        <td>Learn a new dance style</td>
-        <td class="cross">Attend pride</td>
+        <td>Break and repair my phone again</td>
+        <td>Make friends with someone's pet</td>
+        <td>Cook a fruit/veg I haven't used before</td>
+        <td>Acquire merch that is actually useful</td>
+        <td>Learn a new woodworking tool</td>
       </tr>
       <tr>
-        <td class="cross">Attend a protest</td>
+        <td>Attend a Jane Street event as James' +1</td>
         <td>Use a sewing machine</td>
-        <td class="cross">Eat a morel</td>
-        <td class="cross">Lose a sock (or underwear)</td>
-        <td class="cross">Solder something</td>
+        <td>Randomly see a friend on street/subway</td>
+        <td>Find a mac-n-cheese recipe in an unexpected way</td>
+        <td>Go to gym 60+ times</td>
       </tr>
     </tbody>
   </table>
