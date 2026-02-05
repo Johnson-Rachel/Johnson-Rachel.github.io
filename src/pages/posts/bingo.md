@@ -49,7 +49,7 @@ pubDate: 'Thu, 8 Jan 2025 08:00:00 EST'
         <td>Try a new sport</td>
         <td>Play and finish a new video game</td>
         <td>Get sick</td>
-        <td>Have a conversation with a politician</td>
+        <td class="x">Have a conversation with a politician</td>
       </tr>
       <tr>
         <td>Bike 50+ miles in a day</td>
