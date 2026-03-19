@@ -39,7 +39,7 @@ pubDate: 'Thu, 8 Jan 2025 08:00:00 EST'
     <tbody>
       <tr>
         <td>Replace a piece of furniture</td>
-        <td>See a quantum computer in person</td>
+        <td class="x">See a quantum computer in person</td>
         <td>Ride Amtrak, Flix, or Greyhound</td>
         <td>Go to (not through) New Jersey</td>
         <td>Dig a cathole</td>
@@ -48,7 +48,7 @@ pubDate: 'Thu, 8 Jan 2025 08:00:00 EST'
         <td>3D print something</td>
         <td>Try a new sport</td>
         <td>Play and finish a new video game</td>
-        <td>Get sick</td>
+        <td class="x">Get sick</td>
         <td class="x">Have a conversation with a politician</td>
       </tr>
       <tr>
@@ -62,7 +62,7 @@ pubDate: 'Thu, 8 Jan 2025 08:00:00 EST'
         <td>Break and repair my phone again</td>
         <td>Make friends with someone's pet</td>
         <td>Cook a fruit/veg I haven't used before</td>
-        <td>Acquire merch that is actually useful</td>
+        <td class="x">Acquire merch that is actually useful</td>
         <td>Learn a new woodworking tool</td>
       </tr>
       <tr>
