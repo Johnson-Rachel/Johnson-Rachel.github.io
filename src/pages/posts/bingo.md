@@ -47,7 +47,7 @@ pubDate: 'Thu, 8 Jan 2025 08:00:00 EST'
       <tr>
         <td>3D print something</td>
         <td>Try a new sport</td>
-        <td>Play and finish a new video game</td>
+        <td class="x">Play and finish a new video game</td>
         <td class="x">Get sick</td>
         <td class="x">Have a conversation with a politician</td>
       </tr>
