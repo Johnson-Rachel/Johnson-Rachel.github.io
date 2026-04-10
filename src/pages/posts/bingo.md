@@ -63,7 +63,7 @@ pubDate: 'Thu, 8 Jan 2025 08:00:00 EST'
         <td>Make friends with someone's pet</td>
         <td>Cook a fruit/veg I haven't used before</td>
         <td class="x">Acquire merch that is actually useful</td>
-        <td>Learn a new woodworking tool</td>
+        <td class="x">Learn a new woodworking tool</td>
       </tr>
       <tr>
         <td>Attend a Jane Street event as James' +1</td>
