@@ -52,7 +52,7 @@ pubDate: 'Thu, 8 Jan 2025 08:00:00 EST'
         <td class="x">Have a conversation with a politician</td>
       </tr>
       <tr>
-        <td>Bike 50+ miles in a day</td>
+        <td class="x">Bike 50+ miles in a day</td>
         <td>Accidentally kill a houseplant</td>
         <td class="x">Central Park&nbsp; (free)</td>
         <td>Jury duty</td>
@@ -61,7 +61,7 @@ pubDate: 'Thu, 8 Jan 2025 08:00:00 EST'
       <tr>
         <td>Break and repair my phone again</td>
         <td>Make friends with someone's pet</td>
-        <td>Cook a fruit/veg I haven't used before</td>
+        <td class="x">Cook a fruit/veg I haven't used before</td>
         <td class="x">Acquire merch that is actually useful</td>
         <td class="x">Learn a new woodworking tool</td>
       </tr>
