@@ -66,9 +66,9 @@ pubDate: 'Thu, 8 Jan 2025 08:00:00 EST'
         <td class="x">Learn a new woodworking tool</td>
       </tr>
       <tr>
-        <td>Attend a Jane Street event as James' +1</td>
+        <td class="x">Attend a Jane Street event as James' +1</td>
         <td>Use a sewing machine</td>
-        <td>Randomly see a friend on street/subway</td>
+        <td class="x">Randomly see a friend on street/subway</td>
         <td>Find a mac-n-cheese recipe in an unexpected way</td>
         <td>Go to gym 60+ times</td>
       </tr>
