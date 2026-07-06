@@ -9,7 +9,7 @@ import { map } from 'astro:schema';
 <Layout title="Rachel Johnson">
 	<main>
 		</svg>
-		<h1 <span class="text-gradient">Rachel Johnson</span></h1>
+		<h1 <span class="title">Rachel Johnson</span></h1>
 		<p class="info">
 			<a href='mailto:rachel@rachelejohnson.com'>Email</a> &#x25CB; 
 			<a href='/Resume.pdf'>Resume</a> &#x25CB; 
@@ -65,13 +65,10 @@ import { map } from 'astro:schema';
 		text-align: center;
 		margin-bottom: .5em;
 	}
-	.text-gradient {
+	.title {
 		font-family: "Koh Santepheap", serif;
 		font-weight: 700;
   		font-style: normal;
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
 		background-size: 400%;
 		background-position: 0%;
 		padding:8px;
