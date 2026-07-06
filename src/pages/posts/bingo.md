@@ -40,7 +40,7 @@ pubDate: 'Thu, 8 Jan 2025 08:00:00 EST'
       <tr>
         <td>Replace a piece of furniture</td>
         <td class="x">See a quantum computer in person</td>
-        <td>Ride Amtrak, Flix, or Greyhound</td>
+        <td class="x">Ride Amtrak, Flix, or Greyhound</td>
         <td>Go to (not through) New Jersey</td>
         <td>Dig a cathole</td>
       </tr>
@@ -60,7 +60,7 @@ pubDate: 'Thu, 8 Jan 2025 08:00:00 EST'
       </tr>
       <tr>
         <td>Break and repair my phone again</td>
-        <td>Make friends with someone's pet</td>
+        <td class="x">Make friends with someone's pet</td>
         <td class="x">Cook a fruit/veg I haven't used before</td>
         <td class="x">Acquire merch that is actually useful</td>
         <td class="x">Learn a new woodworking tool</td>
