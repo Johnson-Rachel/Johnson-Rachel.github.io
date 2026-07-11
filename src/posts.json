@@ -138,30 +138,5 @@
     "href": "/posts/plancks-constant",
     "title": "Calculating Planck's Constant Using LEDs",
     "image": "leds.webp"
-  },
-  {
-    "href": "/posts/biomial-expansion",
-    "title": "Biomial Expansion",
-    "image": "biomial.webp"
-  },
-  {
-    "href": "/posts/drip-drop",
-    "title": "Drip Drop",
-    "image": "drip-drop.webp"
-  },
-  {
-    "href": "/posts/m3-2020",
-    "title": "MathWorks Math Modeling Challenge 2020",
-    "image": "m3.webp"
-  },
-  {
-    "href": "/posts/mentor-one",
-    "title": "Mentor One",
-    "image": "mentorone.webp"
-  },
-  {
-    "href": "/posts/m3-2019",
-    "title": "MathWorks Math Modeling Challenge 2019",
-    "image": "m3.webp"
   }
 ]
