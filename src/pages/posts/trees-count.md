@@ -10,8 +10,8 @@ Every ten years, NYC Parks does a survey of all the trees under their management
 
 <img src="/treescount-map.webp" alt="Map of NYC with pink dots over several parks where I counted trees" width="80%"/>
 
-For each tree, I measured its circumference, identified the species, and input a few health observations such as insect damage or excessive litter. I've surveyed a wide variety of trees from new plantings in Hunter's Point to huge osage orange trees in Marcus Garvey Memorial Park. I also explored a lot of different parks that I hadn't seen before. 
+For each tree, I measured its circumference, identified the species, and input a few health observations such as insect damage or excessive litter. I've surveyed a wide variety of trees from new plantings in Hunter's Point to huge osage orange trees in Marcus Garvey Memorial Park. I've also explored a lot of different parks that I hadn't seen before. 
 
-In total, I've surveyed about 500 trees so far. My top three species are london plane, callery pear, and japanese zelkova, which is similar to the overall top species planted in the parks. It was sad to see that every plane tree I surveyed was struggling with the heat but at least there were other species that fared better.
+In total, I've surveyed about 1000 trees so far. My top three species are london plane, pin oak, and japanese zelkova, similar to the overall top species planted in the parks. It has been sad to see every plane tree I survey struggling with the heat, but at least there are other species that fare better.
 
 If you'd like to learn more or get involved, the NYC Parks page is [here](https://www.nycgovparks.org/reg/trees-count/).
