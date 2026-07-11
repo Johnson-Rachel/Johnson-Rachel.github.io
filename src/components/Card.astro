@@ -19,8 +19,8 @@ const { href, title, image } = Astro.props;
 <style>
 	.link-card {
     position: relative; 
-    height: 23rem;
-    width: 23rem;
+    height: 18rem;
+    width: 18rem;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -47,8 +47,8 @@ const { href, title, image } = Astro.props;
 
 .link-card > a {
 	z-index: 1;
-    height: 20rem;
-    width: 20rem;
+    height: 15rem;
+    width: 15rem;
     text-decoration: none;
     line-height: 1.4;
     padding: calc(3.5rem - 5px);
@@ -60,41 +60,12 @@ const { href, title, image } = Astro.props;
 h2 {
     margin: 10px; 
     font-size: 2rem;
+    font-family: "Fraunces", "Koh Santepheap", serif;
 }
 
 p {
     margin-top: 0.5rem;
     margin-bottom: 0;
-}
-@media (750px <= width <= 800px) {
-  	/* scale down circles without overlapping */
-	h2 {
-		font-size: 1.7rem;
-	}
-    .link-card {
-        height: 20rem;
-        width: 20rem;
-    }
-}
-@media (500px <= width <= 749px) {
-  	/* scale down circles without overlapping */
-	h2 {
-		font-size: 1.8rem;
-	}
-    .link-card {
-        height: 26rem;
-        width: 26rem;
-    }
-}
-@media (width <= 499px) {
-  	/* scale down circles without overlapping */
-	h2 {
-		font-size: 1.6rem;
-	}
-    .link-card {
-        height: 23rem;
-        width: 23rem;
-    }
 }
 }
 </style>

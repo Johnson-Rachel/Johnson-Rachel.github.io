@@ -2,31 +2,50 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import posts from '../posts.json'
-import { map } from 'astro:schema';
 
+
+const recentPosts = posts.slice(0, 20);
+
+const rows = [];
+let i = 0;
+let two = true;
+
+while (i < recentPosts.length) {
+  const size = two ? 3 : 2;
+  rows.push(recentPosts.slice(i, i + size));
+  i += size;
+  two = !two;
+}
 ---
 
 <Layout title="Rachel Johnson">
 	<main>
-		</svg>
-		<h1 <span class="title">Rachel Johnson</span></h1>
+		<h1> <span class="title">Rachel Johnson</span></h1>
 		<p class="info">
-			<a href='mailto:rachel@rachelejohnson.com'>Email</a> &#x25CB; 
-			<a href='/Resume.pdf'>Resume</a> &#x25CB; 
-			<a href='https://github.com/johnson-rachel/'>GitHub</a> &#x25CB; 
-			<a href='/archive'>All Posts</a> &#x25CB;
-			<a href='/feed.xml'>RSS</a> 
-			
+			<a href="mailto:rachel@rachelejohnson.com">Email</a>
+			<span class="separator">&#x25CB;</span>
+
+			<a href="/archive">All Posts</a>
+			<span class="separator">&#x25CB;</span>
+
+			<a href="/feed.xml">RSS</a>
 		</p>
-		<ul role="list" class="link-card-grid">
-			{
-			posts.slice(0,20).map(post => <Card
-				href={post.href}
-				title={post.title}
-				image={post.image}
-			/>)
-			}
-		</ul>
+		{
+			rows.map((row) => (
+				<ul
+				role="list"
+				class={`post-row ${row.length === 2 ? "two" : "three"}`}
+				>
+				{row.map(post => (
+					<Card
+					href={post.href}
+					title={post.title}
+					image={post.image}
+					/>
+				))}
+				</ul>
+			))
+		}
 	</main>
 </Layout>
 
@@ -60,23 +79,20 @@ import { map } from 'astro:schema';
 	}
 	h1 {
 		font-size: 5rem;
-		font-weight: 700;
 		line-height: 1;
 		text-align: center;
 		margin-bottom: .5em;
 	}
 	.title {
-		font-family: "Koh Santepheap", serif;
-		font-weight: 700;
+		font-family: "Fraunces", "Koh Santepheap", serif;
+		font-weight: 600;
   		font-style: normal;
-		background-size: 400%;
-		background-position: 0%;
 		padding:8px;
 	}
 	.info {
+		font-family: "Fraunces", "Koh Santepheap", serif;
 		font-size: 1.5em;
-		margin-bottom: 1rem;
-		padding: 1rem;
+		margin-bottom: 2rem;
 		border-radius: 125px;
 		text-align: center;
 		font-weight: 500;
@@ -92,35 +108,37 @@ import { map } from 'astro:schema';
 	.info strong {
 		color: rgb(var(--accent-light));
 	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+
+	.link-card {
+		width: min(18rem, 90vw);
+		height: min(18rem, 90vw);
+	}
+	.post-row {
+		display: flex;
+		justify-content: center;
 		gap: 2rem;
 		padding: 0;
+		list-style: none;
 	}
-	
-	@media (width <= 749px) {
-		/* center a single column of circles */
-		.link-card-grid{
-		justify-items:center;
+	@media (max-width: 749px) {
+		.post-row {
+			flex-wrap: wrap;
 		}
-	}
-	@media (380px <= width <= 455px) {
-  		/* Scale down my name so it doesn't get covered up */
+		.link-card {
+			width: min(18rem, 90vw);
+			height: min(18rem, 90vw);
+		}
+		.info {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 0.4rem;
+		}
+		.separator {
+			display: none;
+		}
 		h1 {
-        	font-size: 4rem;
-    	}
-	}
-	@media (300px <= width <= 379px) {
-  		/* Scale down my name so it doesn't get covered up */
-		h1 {
-        	font-size: 3rem;
-    	}
-	}
-	@media (width <= 299px) {
-  		/* Scale down my name so it doesn't get covered up - works down to about 240px */
-		h1 {
-        	font-size: 2.3rem;
-    	}
+			font-size: 2.5rem;
+		}
 	}
 </style>
